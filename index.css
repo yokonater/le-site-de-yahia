@@ -1,0 +1,99 @@
+
+  h2 {
+    text-align: center;
+  }
+
+  .right {
+    position: absolute;
+    bottom: 1px;
+    right: 5px;
+    margin: 20px;
+    font-size: 110px;
+  }
+  .notright {
+    position: absolute;
+    bottom: 1px;
+    right: 5px;
+    margin: 20px;
+    font-size: 30px;
+    float: right;
+  }
+
+  .header {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #BFBCB6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+  .header h3 {
+    font-size: 30px;
+  margin-bottom: 20px
+  }
+  .header h2 {
+    font-size: 150px;
+    margin: 0;
+
+  }
+
+.photo1 {
+  display: block;
+  width: 50%;
+  height: auto;
+  position: absolute;
+  top: 1;
+  right: 0;
+  margin-top:0px;
+  z-index: 10;
+}
+.photo2{
+  display: block;
+  width: 50%;
+  height: auto;
+  position: absolute;
+  left:0px;
+  top:1325px;
+
+
+
+}
+ .photo3{
+ display:block;
+ width: 50%;
+ height: auto;
+ right: 0px;
+ top: 1865px;
+ position: absolute;
+}
+p {
+  position: relative;
+  left: -320px; /* moves it 50px left */
+  top: 500px;
+  width:35%;
+  font-size:25px;
+}
+.volleyball {
+  position: relative;
+  font-size: 25px;
+  left: 320px;
+  top: 950px;
+  width: 35%;
+}
+.teamwork{
+  position: relative;
+  right: 320px;
+  font-size: 25px;
+  top: 1400px;
+  width: 35%;
+}
+
+
+body {
+  background-color: #BFBCB6;
+}
