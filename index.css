@@ -44,7 +44,7 @@
 
 .photo1 {
   display: block;
-  width: 50%;
+  width: 720px;
   height: auto;
   position: absolute;
   top: 1;
@@ -54,7 +54,7 @@
 }
 .photo2{
   display: block;
-  width: 50%;
+  width: 720px;
   height: auto;
   position: absolute;
   left:0px;
@@ -65,7 +65,7 @@
 }
  .photo3{
  display:block;
- width: 50%;
+ width: 720px;
  height: auto;
  right: 0px;
  top: 1865px;
@@ -83,7 +83,7 @@ p {
   font-size: 25px;
   left: 320px;
   top: 950px;
-  width: 35%;
+  width: 720px;
 }
 .teamwork{
   position: relative;
