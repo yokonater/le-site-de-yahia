@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Create Account</title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+<div class="container">
+<div class="header">
+  <h1>Create Account</h1>
+</div>
+<form name="createForm" onsubmit="return createAccount(event);" method="post">
+<ul>
+<li>Username:
+  <input class="username" type="text" name="username">
+</li>
+<li>Password:
+  <input class="password" type="password" name="password">
+</li>
+<li>Confirm Password:
+  <input class="password" type="password" name="confirm">
+</li>
+</ul>
+<input type="submit" class="submit" value="Create Account">
+<input type="button" class="create" value="Retourne" onclick="window.location.href='login.html'">
+</form>
+</div>
+<script src="create.js"></script>
+</body>
+</html>
